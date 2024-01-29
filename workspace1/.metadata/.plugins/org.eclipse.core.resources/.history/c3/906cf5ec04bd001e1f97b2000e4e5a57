@@ -1,0 +1,27 @@
+package try_error_base;
+
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Big_Decimal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner sc = new Scanner(System.in);
+	        String st =  sc.next();
+	      //  String st_ = sc.next();
+//	        BigInteger a = new BigInteger(st); 
+//	        BigInteger b = new BigInteger(st);
+	        BigDecimal c = new BigDecimal(st);
+	        BigDecimal d = new BigDecimal(st);
+	        BigDecimal sum_ = c.add(d);
+	        System.out.println(sum_);
+	        
+//	        BigInteger sum = a.add(b);
+//	        BigInteger multi = a.multiply(b);
+//	        System.out.println(""+sum);
+//	        System.out.println(""+multi);
+	}
+
+}

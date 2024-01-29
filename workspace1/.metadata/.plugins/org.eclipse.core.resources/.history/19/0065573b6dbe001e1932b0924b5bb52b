@@ -1,0 +1,44 @@
+package array_for_loop;
+
+import java.util.Arrays;
+
+public class De_Ini {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Integer array
+		int[] integerArray = new int[5];
+		System.out.println(integerArray);
+        double[] doubleArray = new double[3];
+		boolean[] booleanArray = new boolean[4];
+		int[] initializedArray = {1, 2, 3, 4, 5};
+
+
+		 int[] numbers = {5, 2, 8, 1, 5};
+	        Arrays.sort(numbers);
+	        System.out.println("Sorted array: " + Arrays.toString(numbers));
+	        
+	        int[] numbers_two = {5, 2, 8, 1, 7};
+	        int index = Arrays.binarySearch(numbers_two, 8);
+	        System.out.println("Index of 8: " + index);
+	        
+	        int[] numbers_ = new int[5];
+	        Arrays.fill(numbers_, 42);
+	        System.out.println("Filled array: " + Arrays.toString(numbers_));
+	        
+	        int[] sourceArray = {1, 2, 3, 4, 5};
+	        int[] destinationArray = Arrays.copyOf(sourceArray, sourceArray.length);
+	        
+	        int[] array1 = {1, 2, 3};
+	        int[] array2 = {1, 2, 3};
+	        boolean areEqual = Arrays.equals(array1, array2);
+	        System.out.println("Arrays are equal: " + areEqual);
+	        
+	        int[] number = {1, 2, 3, 4, 5};
+	        String arrayString = Arrays.toString(number);
+	        System.out.println("Array as string: " + arrayString);
+	        
+
+	}
+
+}
