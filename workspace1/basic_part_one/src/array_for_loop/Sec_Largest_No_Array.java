@@ -21,6 +21,10 @@ public class Sec_Largest_No_Array {
 	}
 }
 
+// int len = arr.lenght;
+// Arrays.sort(arr)
+// System.out.println(arr[len-2]);
+
 //int array[] = {10, 20, 25, 63, 96, 57};
 //int size = array.length;
 //Arrays.sort(array);
