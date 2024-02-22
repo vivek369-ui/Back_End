@@ -1,0 +1,19 @@
+package array_for_loop;
+
+public class De_Ini {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Integer array
+		int[] integerArray = new int[5];
+        double[] doubleArray = new double[3];
+		boolean[] booleanArray = new boolean[4];
+		int[] initializedArray = {1, 2, 3, 4, 5};
+
+//		Arrays.sort(numbers);
+//		int[] numbers = {5, 2, 8, 1, 7};
+//		int index = Arrays.binarySearch(numbers, 8);
+
+	}
+
+}

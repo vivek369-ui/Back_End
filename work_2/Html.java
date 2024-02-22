@@ -1,0 +1,10 @@
+System.out.println("\n 1. <html>");
+		System.out.println("\n 2. <head>");
+		System.out.println("\n 3. <title></title>");
+		System.out.println("\n 4. </head>");
+		System.out.println("\n 5. <body>");
+		System.out.println("\n 6. <p></p>");
+		System.out.println("\n 7. <h1></h1>");
+		System.out.println("\n 8. </body>");
+		System.out.println("\n 9. </html>");
+		System.out.println("\n 0. exit");

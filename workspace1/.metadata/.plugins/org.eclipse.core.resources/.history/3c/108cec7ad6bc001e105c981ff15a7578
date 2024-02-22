@@ -1,0 +1,23 @@
+package all_concept;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Reg_Expression {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pattern pt = Pattern.compile("[A-Za-z0-9]");
+		Matcher match = pt.matcher("ram093");
+		if(match.matches()) {
+			System.out.println("matches");
+			
+		}
+		else
+		{
+			System.out.println("not matches");
+		}
+		
+
+	}
+
+}

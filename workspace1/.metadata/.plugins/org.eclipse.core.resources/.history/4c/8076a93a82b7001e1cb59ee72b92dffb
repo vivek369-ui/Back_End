@@ -1,0 +1,15 @@
+package hacker_rank;
+import java.util.Scanner;
+
+public class Rank {
+	
+	    public static void main(String[] args) {
+	        String name = "John";
+	        int age = 25;
+
+	        System.out.printf("Name: %s, Age: 03%d\n", name, age);
+	    }
+	
+
+	}
+

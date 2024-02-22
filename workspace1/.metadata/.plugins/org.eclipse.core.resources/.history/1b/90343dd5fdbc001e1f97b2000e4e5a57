@@ -1,0 +1,10 @@
+package try_error_base;
+
+public class Big_Decimal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

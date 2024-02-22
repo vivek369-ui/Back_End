@@ -1,0 +1,14 @@
+package hacker_rank;
+
+public class Snippet {
+	String pattern = in.nextLine();
+	        
+	        try{
+	            Pattern words = Pattern.compile(pattern);
+	            System.out.println("Valid");    
+	        }catch(PatternSyntaxException exception){
+	            System.out.println("Invalid");
+	        }
+	        testCases--;
+}
+

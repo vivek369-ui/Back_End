@@ -1,0 +1,23 @@
+package all_concept;
+
+//An interface is a completely "abstract class" that is used to group related methods with empty bodies
+
+interface Polygon {
+	  void getArea(int length, int breadth);
+	}
+
+	// implement the Polygon interface
+	class Rectangle implements Polygon {
+
+	  // implementation of abstract method
+	  public void getArea(int length, int breadth) {
+	    System.out.println("The area of the rectangle is " + (length * breadth));
+	  }
+	}
+
+	class Define  {
+	  public static void main(String[] args) {
+	    Rectangle r1 = new Rectangle();
+	    r1.getArea(5, 6);
+	  }
+	}

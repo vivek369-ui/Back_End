@@ -1,0 +1,25 @@
+package hacker_rank;
+import java.util.Scanner;
+
+public class Palandrom_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 String st ="ram";
+		 String rev ="";
+		 System.out.println(""+st);
+//		 for(int i =0 ; i<st.length();i++) {
+//			 System.out.println(""+i);
+		 int length = st.length();
+		 for(int i = length-1;i>=0;i--) {
+			 rev =rev+st.charAt(i);//+used for concating the 2string 
+			 
+		 }
+		 
+		 }
+		
+			
+		
+	}
+	
+

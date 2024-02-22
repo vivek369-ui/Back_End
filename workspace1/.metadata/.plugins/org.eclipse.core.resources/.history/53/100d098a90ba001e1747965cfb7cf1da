@@ -1,0 +1,27 @@
+package hacker_rank;
+import java.util.Scanner;
+
+public class Palandrom_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner Sc = new Scanner(System.in);
+		System.out.println("input string:");
+		char letters[] = Sc.nextLine().toCharArray();
+		System.out.println("revese the String:");
+		for (int i = letters.length - 1; i >= 0; i--) {
+			System.out.print(letters[i]);
+		}
+		
+		System.out.println("2nd string :"); 
+		char let[] = Sc.nextLine().toCharArray();
+		System.out.println("2nd output string:");
+		for (int i=0 ; i<let.length;i++) {
+			System.out.print(letters[i]);
+			
+		
+		}
+	}
+
+}

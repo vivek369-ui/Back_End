@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;hacker_rank.Snippet.java&apos; to &apos;Reg_Expression.java&apos;&#x0D;&#x0A;- Original project: &apos;hacker_rank&apos;&#x0D;&#x0A;- Original element: &apos;hacker_rank.Snippet.java&apos;&#x0D;&#x0A;- Renamed element: &apos;hacker_rank.Reg_Expression.java&apos;" description="Rename compilation unit &apos;Snippet.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;hacker_rank{Snippet.java" name="Reg_Expression.java" references="false" stamp="1706188848188" version="1.0"/>
+</session>

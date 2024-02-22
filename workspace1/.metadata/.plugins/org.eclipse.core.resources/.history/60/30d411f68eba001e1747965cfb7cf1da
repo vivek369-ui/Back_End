@@ -1,0 +1,22 @@
+package hacker_rank;
+
+public class Palandrom_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		String st = "dad";
+//		System.out.println(st);
+//		for(int i =0 ; i<st.length();i++)
+//		{
+//			System.out.println(""+st.charAt(i));
+		StringBuffer str = new StringBuffer("dad");
+		System.out.println(""+str.reverse()); 
+		
+		
+		
+//		}
+
+	}
+
+}
