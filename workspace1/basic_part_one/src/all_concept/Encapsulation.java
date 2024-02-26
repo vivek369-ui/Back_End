@@ -1,5 +1,6 @@
 package all_concept;
-
+//geter used for view th data 
+//setr set the data
  class Encap {
 	private String name;
 	private int id;
