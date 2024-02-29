@@ -9,7 +9,9 @@ public class Odd_NO {
 			if(i%2 !=0)
 			{
 				System.out.println(i);
+				//continue;
 			}
+			// the continue statement is executed, which skips the rest of the loop body for the current iteration and proceeds to the next iteration.
 		}
 
 	}
